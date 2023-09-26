@@ -186,7 +186,7 @@
         transform: unset;
     }
 
-    .img-1, .img-2, .gif-1{
+    .img-1{
         position: relative;
         display: block;
         max-width: 400px;
@@ -199,5 +199,11 @@
     }
     .img-2, .gif-1{
         display: none;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .img-1{
+        max-width: 300px;
     }
   }
