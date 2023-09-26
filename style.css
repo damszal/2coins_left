@@ -43,7 +43,7 @@
 }
 
 
-.page-1-stack{
+.page-stack{
     background-color: rgb(35, 33, 33);
     color: white;
 
@@ -122,10 +122,13 @@
     max-width: 45%;
 } 
 
+.bgc1{
+    background-color: rgb(44, 43, 43);
+}
 
 @media only screen and (max-width: 900px) {
    
-    .page-1-stack{
+    .page-stack{
         padding-top: 2rem;
         position: relative;
     }
