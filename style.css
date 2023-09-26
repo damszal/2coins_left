@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nabla&family=Silkscreen:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .container{
     display: flex;
     flex-direction: column;
     background-color: rgb(44, 43, 43);
-    height: 100vh;
     width: 100vw;
 }
 
@@ -42,13 +42,6 @@
     margin: 1rem;
 }
 
-
-.main-container{
-    display: block;
-    background-color: rgb(13, 52, 150);
-    height: 100%;
-    position: relative;
-}
 
 .page-1-stack{
     background-color: rgb(35, 33, 33);
@@ -138,20 +131,15 @@
     }
 
     .img-1{
-        position: relative;
-        display: block;
         max-width: 400px;
-        width: unset;
-        left: unset;
-        right: unset;
-        top: unset;
-        bottom: unset;
-        transform: unset;
     }
   }
 
   @media only screen and (max-width: 470px) {
     .img-1{
         max-width: 300px;
+    }
+    .container{
+        height: 100vh;
     }
   }
